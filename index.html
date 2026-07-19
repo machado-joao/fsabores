@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F Sabores Laticínio — Delícias à sua mesa!</title>
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
+    <meta
+      name="description"
+      content="F Sabores Laticínio em Pindamonhangaba-SP: queijos artesanais, doces caseiros, ervas, manteigas e molhos. Produtos frescos à sua mesa. Peça pelo WhatsApp!"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,700&family=Poppins:wght@500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <a
+          href="#topo"
+          class="logo"
+          aria-label="F Sabores Laticínio — voltar ao início"
+        >
+          <span class="logo-texto">
+            <strong><span class="letra-f">F </span>Sabores</strong>
+            <small>Laticínio</small>
+          </span>
+        </a>
+
+        <nav aria-label="Navegação principal">
+          <ul class="nav-lista">
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#radio">Rádio</a></li>
+          </ul>
+        </nav>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="menuMobile"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <nav class="menu-mobile" id="menuMobile" aria-label="Menu mobile">
+      <a href="#produtos">Produtos</a>
+      <a href="#contato">Contato</a>
+      <a href="#radio">Rádio</a>
+    </nav>
+
+    <section class="hero textura-madeira" id="topo">
+      <div class="container hero-conteudo">
+        <h1>
+          <span class="hero-marca"><span class="letra-f">F </span>Sabores</span
+          ><br />
+          <span class="hero-laticinio">Laticínio</span>
+        </h1>
+
+        <div class="hero-swoosh" aria-hidden="true">
+          <svg viewBox="0 0 340 34">
+            <path
+              d="M4,14 C90,2 250,2 336,10 C250,16 90,20 4,14 Z"
+              fill="#006338"
+              stroke="#FFFFFF"
+              stroke-width="2.5"
+            />
+            <path
+              d="M4,24 C90,12 250,12 336,20 C250,26 90,30 4,24 Z"
+              fill="#D20E22"
+              stroke="#FFFFFF"
+              stroke-width="2.5"
+            />
+          </svg>
+        </div>
+
+        <span class="slogan">Delícias à sua mesa!</span>
+
+        <p class="apoio">
+          Queijos artesanais, doces caseiros, molhos especiais, ervas e
+          manteigas de tradição. Ingredientes selecionados para levar o melhor
+          sabor à sua mesa. Faça seu pedido!
+        </p>
+        <a
+          class="btn-cta"
+          href="https://wa.me/5512996443445?text=Ol%C3%A1!%20Quero%20fazer%20uma%20encomenda%20na%20F%20Sabores"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-whatsapp"></i> Faça seu pedido
+        </a>
+      </div>
+
+      <div class="divisor" aria-hidden="true">
+        <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
+          <path
+            fill="#e4f1e9"
+            d="M0,40 C120,70 240,10 360,25 C480,40 560,70 690,55 C820,40 900,5 1030,20 C1160,35 1260,65 1440,35 L1440,70 L0,70 Z"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <section class="produtos" id="produtos">
+      <div class="container">
+        <h2 class="secao-titulo">Nossos <span>produtos</span></h2>
+        <div class="linha-decorativa"></div>
+
+        <div class="carrossel reveal">
+          <button
+            class="carrossel-seta seta-prev"
+            id="setaPrev"
+            aria-label="Produto anterior"
+          >
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+
+          <div class="carrossel-janela">
+            <div class="carrossel-trilho" id="trilho">
+              <article class="card">
+                <div class="card-interno">
+                  <div
+                    class="card-img"
+                    data-tag="Mais vendido"
+                    aria-hidden="true"
+                  >
+                    <img
+                      src="./img/queijos.jpeg"
+                      alt="Seleção de queijos variados"
+                    />
+                  </div>
+                  <div class="card-corpo">
+                    <h3>Queijos</h3>
+                    <p>
+                      Uma seleção caprichada dos melhores queijos: do minas
+                      frescal até os curados, provolones e trancinhas.
+                    </p>
+                    <a
+                      class="btn-card"
+                      href="https://wa.me/5512996443445?text=Ol%C3%A1!%20Quero%20conhecer%20as%20op%C3%A7%C3%B5es%20de%20queijos"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <i class="fa-brands fa-whatsapp"></i> Pedir no WhatsApp
+                    </a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="card-interno">
+                  <div class="card-img" aria-hidden="true">
+                    <img
+                      src="./img/doces.jpeg"
+                      alt="Doces caseiros, banha e goiabada"
+                    />
+                  </div>
+                  <div class="card-corpo">
+                    <h3>Doces e delícias</h3>
+                    <p>
+                      Doces de leite, compotas, goiabada cascão e ingredientes
+                      tradicionais. O verdadeiro sabor da fazenda!
+                    </p>
+                    <a
+                      class="btn-card"
+                      href="https://wa.me/5512996443445?text=Ol%C3%A1!%20Quero%20ver%20os%20doces%20caseiros"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <i class="fa-brands fa-whatsapp"></i> Pedir no WhatsApp
+                    </a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="card-interno">
+                  <div class="card-img" aria-hidden="true">
+                    <img
+                      src="./img/molhos.jpeg"
+                      alt="Molhos de pimenta e manteiga de garrafa"
+                    />
+                  </div>
+                  <div class="card-corpo">
+                    <h3>Molhos e manteigas</h3>
+                    <p>
+                      O toque especial e picante que faltava nas suas receitas.
+                      Temos manteiga de garrafa e diversos molhos de pimenta.
+                    </p>
+                    <a
+                      class="btn-card"
+                      href="https://wa.me/5512996443445?text=Ol%C3%A1!%20Gostaria%20de%20ver%20os%20molhos%20e%20manteigas"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <i class="fa-brands fa-whatsapp"></i> Pedir no WhatsApp
+                    </a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="card-interno">
+                  <div class="card-img" aria-hidden="true">
+                    <img src="./img/mate.jpeg" alt="Erva-mate e cuias" />
+                  </div>
+                  <div class="card-corpo">
+                    <h3>Erva-mate e acessórios</h3>
+                    <p>
+                      Tudo o que você precisa para o seu chimarrão ou tereré:
+                      ervas de qualidade e cuias decoradas prontas para uso.
+                    </p>
+                    <a
+                      class="btn-card"
+                      href="https://wa.me/5512996443445?text=Ol%C3%A1!%20Gostaria%20de%20pedir%20produtos%20para%20chimarr%C3%A3o"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <i class="fa-brands fa-whatsapp"></i> Pedir no WhatsApp
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <button
+            class="carrossel-seta seta-next"
+            id="setaNext"
+            aria-label="Próximo produto"
+          >
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+
+          <div
+            class="carrossel-dots"
+            id="dots"
+            role="tablist"
+            aria-label="Navegação do carrossel"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <div class="container">
+        <h2 class="secao-titulo">Fale com a <span>gente</span></h2>
+        <p class="secao-sub">
+          Venha nos visitar ou faça seu pedido pelo WhatsApp — será um prazer te
+          atender!
+        </p>
+        <div class="linha-decorativa"></div>
+
+        <div class="contato-grid">
+          <div class="info-lista reveal">
+            <div class="info-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h3>Endereço</h3>
+                <p>
+                  Rua Capitão José Martiniano Viêra Ferraz, n° 186, Box 43 —
+                  Centro<br />Pindamonhangaba — SP, CEP 12400-490
+                </p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fa-solid fa-clock"></i>
+              <div>
+                <h3>Horário de funcionamento</h3>
+                <p>
+                  Segunda a Sexta: 8h às 17h<br />Sábado: 7h às 13h · Domingo:
+                  8h às 12h
+                </p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fa-brands fa-whatsapp"></i>
+              <div>
+                <h3>WhatsApp</h3>
+                <p>
+                  <a
+                    href="https://wa.me/5512996443445"
+                    target="_blank"
+                    rel="noopener"
+                    >(12) 99644-3445</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mapa reveal">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.636662321627!2d-45.46280480000001!3d-22.9267686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf1c1c6ebd52d%3A0x25fd575eb0e9fd2c!2sF%20Sabores%20-%20Com%C3%A9rcio%20Varejista%20de%20Latic%C3%ADnios%20e%20Frios!5e0!3m2!1spt-BR!2sbr!4v1784467858452!5m2!1spt-BR!2sbr"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Mapa da localização da F Sabores Laticínio"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="radio-secao" id="radio">
+      <div class="container">
+        <h2 class="secao-titulo">Ouça nossa <span>Rádio</span></h2>
+        <p class="secao-sub">
+          Acompanhe a Rádio F Sabores ao vivo enquanto descobre nossos produtos!
+        </p>
+        <div class="linha-decorativa"></div>
+
+        <div class="radio-container reveal">
+          <div class="radio-iframe-wrapper">
+            <iframe
+              src="https://radiofsabores.vocenoar.com/8060/aplicativo"
+              title="Rádio F Sabores Ao Vivo"
+              allow="autoplay; encrypted-media"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-social">
+          <a
+            href="https://www.instagram.com/fsabores.laticinios?igsh=MWI0Z3R3Z2MzOGkwbg=="
+            target="_blank"
+            aria-label="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/share/1JZQfZa1sm/"
+            target="_blank"
+            aria-label="Facebook"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+        </div>
+
+        <nav class="footer-nav" aria-label="Links do rodapé">
+          <a href="#produtos">Produtos</a>
+          <a href="#contato">Contato</a>
+          <a href="#radio">Rádio</a>
+          <a href="#topo"
+            >Voltar ao topo <i class="fa-solid fa-arrow-up"></i
+          ></a>
+        </nav>
+      </div>
+
+      <div class="container footer-copy">
+        <p>
+          Copyright © <span id="ano"></span> F Sabores Laticínio — Todos os
+          direitos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <button class="btn-topo" id="btnTopo" aria-label="Voltar ao topo">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+    <a
+      class="whats-flutuante"
+      href="https://wa.me/5512996443445?text=Ol%C3%A1!%20Quero%20fazer%20uma%20encomenda%20na%20F%20Sabores"
+      target="_blank"
+      rel="noopener"
+      aria-label="Falar no WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

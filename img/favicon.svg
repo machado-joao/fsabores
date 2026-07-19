@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="F Sabores Laticínio">
+  <title>F Sabores</title>
+  <!-- Fundo: verde da marca -->
+  <rect x="1" y="1" width="62" height="62" rx="15" fill="#006338"/>
+  <rect x="1" y="1" width="62" height="62" rx="15" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.35"/>
+  <!-- Letra "F" — fonte Lobster Two Bold, contornada em vetor -->
+  <g transform="translate(16.267 52) scale(0.05333 -0.05333)">
+    <path fill="#FFFFFF" d="M502 450V376H356V0H210V668Q188 666 170.0 659.0Q152 652 139.5 636.5Q127 621 120.5 595.0Q114 569 114 530Q114 497 118.5 473.5Q123 450 129.5 434.0Q136 418 143.0 408.5Q150 399 155 393Q87 393 54.0 424.5Q21 456 21 525Q21 572 37.0 613.0Q53 654 87.0 684.5Q121 715 173.5 732.5Q226 750 299 750Q324 750 346.5 748.0Q369 746 390.0 744.0Q411 742 433.0 740.0Q455 738 480 738Q505 738 527.0 740.5Q549 743 569 750Q569 710 562.0 686.5Q555 663 543.0 650.5Q531 638 515.5 634.0Q500 630 483 630Q455 630 422.5 635.5Q390 641 356 648V450Z"/>
+  </g>
+</svg>
