@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="F Sabores Laticínio">
-  <title>FSabores</title>
-  <defs>
-    <style>
-      @font-face {
-        font-family: "FSabores";
-        src: url("data:font/woff2;base64,d09GMk9UVE8AAALcAAkAAAAABOwAAAKWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYMfBmAAPAE2AiQDCAQGBYMGByAbSAQAngNu83T1hLtabDEa7koSiT1Z+3zy6/fbn929iEsSy5DIFhqNRkiEbFYtdL6EZqH7dE9v4pqLAl6DJEhFfPeyAHej8cCGOF03UAKlzPOfv58/vDSQJJlNaDTAjvOibi37Ryc2JX3QxcG5eAEysDzggY5nuAaJplkCR/OABlRg49dI8Qd+wCfz3120LZLyWNjlYeXlDKIKCrkGsznFAlza93uRKHjL/2fhSVR29NnoH9D9OYxJ3f3iAofcEZvAm/ZWbfMGnQ4o4IKotP5U+2z21/5f+LQH/6ybhnRF1GVLtCysZU9lzM7q9sJv+ryNf5SK0aY9RlSI5UX94dd76jR4YVSlfl7ge+W6CgmkyWJG2kYBHqGJUbfwYi93I9AhkFy8C+v0Jnl4Oe5ttdZWlo9RqQE3E4Y5LRJWqlfnW3vlfrlLCKOGsR19BS73nUX4o1x7je5tEteNaMaWCu1vYQsQ/lTKV2OHo4OXmp1afWmZlaEcHMXcQG4jKHtIYmSktunCF/+fr+Go8IznZPQ0eeJu6NHmhjse/72P3+Pv7mrhNFM/lvNqJL7a8hvtSks5ipZtGSbwDb3gHAEaZyJX6RFnyJ4ATpEjBpzHKgbqwphmM0P6T1OTjlL4BGl9E0AH2InmBDnygyURRiT2EjQnlCKidwmP6GuAi9qNdgDFvJbgwX1/53E4v5HIJwC8H++uUS+YkfLBLwgFd+VU3IeiwnyCcBj50vDQRYHVWpMgJnkNzMAEwssJiksWdCyaB3pObUa0FLh1EZjdEETRGJS0Lej4XXO9pOcrr6RAaQ7N+0KlSp4or39FXrD5VV3DzByFBeB4ddQBIALcjI5Qmm+fT1VJxdeYt51qA7A4CArJa9ssxnQjBgAA") format("woff2");
-      }
-    </style>
-  </defs>
-
-  <rect x="0" y="0" width="64" height="64" fill="#006338" />
-  <rect x="1.5" y="1.5" width="61" height="61" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.35" />
-
-  <text
-    x="33"
-    y="35"
-    text-anchor="middle"
-    dominant-baseline="central"
-    font-family="FSabores, sans-serif"
-    font-size="46"
-    fill="#FFFFFF"
-  >F</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#016138"/>
+  <g transform="translate(-771.88,-299.60) scale(0.90469)">
+    <g transform="translate(0,1788) scale(0.1,-0.1)">
+      <path d="M10955 13510 c-77 -5 -156 -13 -175 -19 -19 -6 -54 -11 -78 -11 -98
+0 -399 -108 -491 -176 -298 -222 -421 -430 -421 -714 0 -314 173 -525 480
+-585 91 -18 142 -19 227 -3 97 18 108 2 63 -92 -50 -102 -56 -106 -182 -114
+-248 -15 -459 -130 -484 -262 -16 -84 49 -115 182 -89 205 40 267 25 224 -56
+-12 -24 -47 -91 -76 -149 -96 -188 -210 -355 -343 -502 -227 -250 -544 -247
+-665 7 -56 119 -100 117 -147 -7 -75 -200 9 -515 174 -647 179 -143 394 -167
+622 -68 182 78 346 232 491 460 42 66 82 136 89 157 8 21 23 56 34 77 36 66
+91 192 172 393 43 107 86 201 96 208 22 16 21 16 208 -83 350 -186 490 -199
+679 -61 196 141 356 489 260 565 -30 24 -37 22 -134 -40 -115 -73 -165 -89
+-273 -89 -188 0 -567 96 -567 144 -1 42 260 577 340 698 28 42 100 129 161
+193 140 147 162 193 114 240 -117 118 -479 -128 -671 -456 -63 -106 -151 -157
+-327 -188 -129 -23 -295 36 -359 128 -177 253 74 664 473 773 115 31 421 38
+544 13 304 -63 640 -185 875 -317 116 -66 387 -182 515 -222 449 -139 775 -14
+1005 389 92 161 122 394 58 462 -39 42 -88 26 -191 -59 -73 -62 -191 -124
+-270 -144 -130 -33 -454 -17 -621 30 -60 17 -172 44 -236 57 -25 5 -79 17
+-120 28 -93 24 -195 46 -280 60 -36 6 -103 17 -150 25 -47 8 -119 18 -161 21
+-42 3 -90 10 -107 14 -46 14 -399 20 -557 11z" fill="#FFFFFF"/>
+    </g>
+  </g>
 </svg>
