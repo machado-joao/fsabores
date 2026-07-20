@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "FSabores";
+  src:
+    url("./font/FSabores.woff2") format("woff2"),
+    url("./font/FSabores.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --verde-folha: #006338;
   --verde-escuro: #024428;
@@ -136,6 +146,7 @@ ul {
     0 3px 5px rgba(0, 0, 0, 0.3);
 }
 .logo-texto strong .letra-f {
+  font-family: "FSabores", var(--fonte-logo);
   color: var(--branco);
   text-shadow:
     -1.5px -1.5px 0 var(--verde-folha),
@@ -143,6 +154,7 @@ ul {
     -1.5px 1.5px 0 var(--verde-folha),
     1.5px 1.5px 0 var(--verde-folha),
     0 3px 5px rgba(0, 0, 0, 0.3);
+  margin-right: 0.3rem;
 }
 .logo-texto small {
   display: block;
@@ -310,6 +322,7 @@ ul {
     0 6px 10px rgba(0, 0, 0, 0.35);
 }
 .hero-marca .letra-f {
+  font-family: "FSabores", var(--fonte-logo);
   color: var(--branco);
   text-shadow:
     -2.5px -2.5px 0 var(--verde-folha),
@@ -321,6 +334,7 @@ ul {
     0 -2.5px 0 var(--verde-folha),
     0 2.5px 0 var(--verde-folha),
     0 6px 10px rgba(0, 0, 0, 0.35);
+  margin-right: 0.5rem;
 }
 .hero-laticinio {
   display: inline-block;

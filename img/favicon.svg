@@ -1,10 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="F Sabores Laticínio">
-  <title>F Sabores</title>
-  <!-- Fundo: verde da marca -->
-  <rect x="1" y="1" width="62" height="62" rx="15" fill="#006338"/>
-  <rect x="1" y="1" width="62" height="62" rx="15" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.35"/>
-  <!-- Letra "F" — fonte Lobster Two Bold, contornada em vetor -->
-  <g transform="translate(16.267 52) scale(0.05333 -0.05333)">
-    <path fill="#FFFFFF" d="M502 450V376H356V0H210V668Q188 666 170.0 659.0Q152 652 139.5 636.5Q127 621 120.5 595.0Q114 569 114 530Q114 497 118.5 473.5Q123 450 129.5 434.0Q136 418 143.0 408.5Q150 399 155 393Q87 393 54.0 424.5Q21 456 21 525Q21 572 37.0 613.0Q53 654 87.0 684.5Q121 715 173.5 732.5Q226 750 299 750Q324 750 346.5 748.0Q369 746 390.0 744.0Q411 742 433.0 740.0Q455 738 480 738Q505 738 527.0 740.5Q549 743 569 750Q569 710 562.0 686.5Q555 663 543.0 650.5Q531 638 515.5 634.0Q500 630 483 630Q455 630 422.5 635.5Q390 641 356 648V450Z"/>
-  </g>
+  <title>FSabores</title>
+  <defs>
+    <style>
+      @font-face {
+        font-family: "FSabores";
+        src: url("data:font/woff2;base64,d09GMk9UVE8AAALcAAkAAAAABOwAAAKWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYMfBmAAPAE2AiQDCAQGBYMGByAbSAQAngNu83T1hLtabDEa7koSiT1Z+3zy6/fbn929iEsSy5DIFhqNRkiEbFYtdL6EZqH7dE9v4pqLAl6DJEhFfPeyAHej8cCGOF03UAKlzPOfv58/vDSQJJlNaDTAjvOibi37Ryc2JX3QxcG5eAEysDzggY5nuAaJplkCR/OABlRg49dI8Qd+wCfz3120LZLyWNjlYeXlDKIKCrkGsznFAlza93uRKHjL/2fhSVR29NnoH9D9OYxJ3f3iAofcEZvAm/ZWbfMGnQ4o4IKotP5U+2z21/5f+LQH/6ybhnRF1GVLtCysZU9lzM7q9sJv+ryNf5SK0aY9RlSI5UX94dd76jR4YVSlfl7ge+W6CgmkyWJG2kYBHqGJUbfwYi93I9AhkFy8C+v0Jnl4Oe5ttdZWlo9RqQE3E4Y5LRJWqlfnW3vlfrlLCKOGsR19BS73nUX4o1x7je5tEteNaMaWCu1vYQsQ/lTKV2OHo4OXmp1afWmZlaEcHMXcQG4jKHtIYmSktunCF/+fr+Go8IznZPQ0eeJu6NHmhjse/72P3+Pv7mrhNFM/lvNqJL7a8hvtSks5ipZtGSbwDb3gHAEaZyJX6RFnyJ4ATpEjBpzHKgbqwphmM0P6T1OTjlL4BGl9E0AH2InmBDnygyURRiT2EjQnlCKidwmP6GuAi9qNdgDFvJbgwX1/53E4v5HIJwC8H++uUS+YkfLBLwgFd+VU3IeiwnyCcBj50vDQRYHVWpMgJnkNzMAEwssJiksWdCyaB3pObUa0FLh1EZjdEETRGJS0Lej4XXO9pOcrr6RAaQ7N+0KlSp4or39FXrD5VV3DzByFBeB4ddQBIALcjI5Qmm+fT1VJxdeYt51qA7A4CArJa9ssxnQjBgAA") format("woff2");
+      }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="64" height="64" fill="#006338" />
+  <rect x="1.5" y="1.5" width="61" height="61" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.35" />
+
+  <text
+    x="33"
+    y="35"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="FSabores, sans-serif"
+    font-size="46"
+    fill="#FFFFFF"
+  >F</text>
 </svg>
