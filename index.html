@@ -4,11 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FSabores Laticínio — Delícias à sua mesa!</title>
-    <link rel="icon" type="image/svg+xml" href="./img/favicon.jpg" />
+    <link rel="icon" type="image/jpeg" href="./img/favicon.jpg" />
+    <link rel="apple-touch-icon" href="./img/favicon.jpg" />
+    <link rel="canonical" href="https://fsabores.com.br/" />
     <meta
       name="description"
       content="FSabores Laticínio em Pindamonhangaba-SP: queijos artesanais, doces caseiros, ervas, manteigas e molhos. Produtos frescos à sua mesa. Peça pelo WhatsApp!"
     />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self';
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+      font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+      img-src 'self' data:;
+      script-src 'self';
+      frame-src https://www.google.com https://radiofsabores.vocenoar.com;
+      connect-src 'self';
+      base-uri 'self';
+      form-action 'none';"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +34,103 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "GroceryStore",
+        "@id": "https://fsabores.com.br/#negocio",
+        "name": "FSabores Laticínio",
+        "alternateName": "FSabores - Comércio Varejista de Laticínios e Frios",
+        "description": "Comércio de laticínios em Pindamonhangaba-SP: queijos artesanais, doces caseiros, ervas, manteigas de garrafa e molhos de pimenta.",
+        "url": "https://fsabores.com.br/",
+        "image": "https://fsabores.com.br/img/logotipo.png",
+        "logo": "https://fsabores.com.br/img/logotipo.png",
+        "telephone": "+55-12-99644-3445",
+        "priceRange": "$",
+        "servesCuisine": "Laticínios",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua Capitão José Martiniano Viêra Ferraz, 186, Box 43, Centro",
+          "addressLocality": "Pindamonhangaba",
+          "addressRegion": "SP",
+          "postalCode": "12400-490",
+          "addressCountry": "BR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -22.9267686,
+          "longitude": -45.4628048
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "17:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "07:00",
+            "closes": "13:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "08:00",
+            "closes": "12:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.instagram.com/fsabores.laticinios",
+          "https://www.facebook.com/share/1JZQfZa1sm/"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Produtos FSabores",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Queijos artesanais"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Doces caseiros e goiabada cascão"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Molhos de pimenta e manteiga de garrafa"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Erva-mate e acessórios para chimarrão"
+              }
+            }
+          ]
+        }
+      }
+    </script>
   </head>
 
   <body>
@@ -331,7 +442,10 @@
             <iframe
               src="https://radiofsabores.vocenoar.com/8060/aplicativo"
               title="Rádio FSabores Ao Vivo"
+              loading="lazy"
+              sandbox="allow-scripts allow-same-origin allow-popups"
               allow="autoplay; encrypted-media"
+              referrerpolicy="no-referrer"
             ></iframe>
           </div>
         </div>
@@ -344,12 +458,14 @@
           <a
             href="https://www.instagram.com/fsabores.laticinios?igsh=MWI0Z3R3Z2MzOGkwbg=="
             target="_blank"
+            rel="noopener noreferrer"
             aria-label="Instagram"
             ><i class="fa-brands fa-instagram"></i
           ></a>
           <a
             href="https://www.facebook.com/share/1JZQfZa1sm/"
             target="_blank"
+            rel="noopener noreferrer"
             aria-label="Facebook"
             ><i class="fa-brands fa-facebook-f"></i
           ></a>
